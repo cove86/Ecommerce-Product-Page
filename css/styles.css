@@ -2,25 +2,55 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 html {
   font-size: 62.5%;
 }
 
-.header {
+body {
+  width: 144rem;
+  margin: 0 auto;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+}
+
+.nav {
   display: flex;
-  /* justify-content: space-evenly; */
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  color: hsl(219, 9%, 45%);
+  border-bottom: 2px solid hsl(223, 64%, 98%);
+  margin-top: 2.4rem;
+  padding-bottom: 2.8rem;
 }
 
 .nav-list {
   display: flex;
-  align-items: center;
+  justify-content: space-evenly;
   list-style: none;
   gap: 4.8rem;
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.nav-cart {
+  height: 2rem;
+  width: 2.2rem;
+}
+
+.nav-avatar {
+  height: 5rem;
+}
+
 .section-product {
+  margin-top: 2.4rem;
   display: flex;
   justify-content: space-evenly;
 }
