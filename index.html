@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
@@ -22,50 +22,56 @@
     <title>Frontend Mentor | E-commerce product page</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-link"><img class="logo" src="images/logo.svg" /></li>
-          <li class="nav-link">Collections</li>
-          <li class="nav-link">Men</li>
-          <li class="nav-link">Women</li>
-          <li class="nav-link">About</li>
-          <li class="nav-link">Contact</li>
-        </ul>
-        <div class="nav-right">
-          <img class="nav-cart" src="images/icon-cart.svg" />
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-link"><img class="logo" src="images/logo.svg" /></li>
+            <li class="nav-link">Collections</li>
+            <li class="nav-link">Men</li>
+            <li class="nav-link">Women</li>
+            <li class="nav-link">About</li>
+            <li class="nav-link">Contact</li>
+          </ul>
+          <div class="nav-right">
+            <img class="nav-cart" src="images/icon-cart.svg" />
 
-          <img class="nav-avatar" src="images/image-avatar.png" />
-        </div>
-      </nav>
-    </header>
+            <img class="nav-avatar" src="images/image-avatar.png" />
+          </div>
+        </nav>
+      </header>
 
-    <main>
-      <section class="section-product">
-        <div class="product-image">
-          <img src="images/image-product-1.jpg" />
-        </div>
-        <div class="product-info">
-          <h4 class="company">Sneaker Company</h4>
-          <h2 class="product-name">Fall Limited Edition Sneakers</h2>
-          <p class="product-description">
-            These low-profile sneakers are your perfect casual wear companion.
-            Featuring a durable rubber outer sole, they’ll withstand everything
-            the weather can offer.
-          </p>
-          <p class="product-price">$125.00</p>
-          <p class="product-percentage">50%</p>
-          <p class="product-previous-price">$250.00</p>
-          <p>0</p>
-          <button class="add-btn">Add to cart</button>
-        </div>
-      </section>
-    </main>
+      <main>
+        <section class="section-product">
+          <div class="product-image">
+            <img src="images/image-product-1.jpg" />
+          </div>
+          <div class="product-info">
+            <h4 class="product-company">Sneaker Company</h4>
+            <h2 class="product-name">Fall Limited Edition Sneakers</h2>
+            <p class="product-description">
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, they’ll withstand
+              everything the weather can offer.
+            </p>
+            <div class="price">
+              <p class="product-price">$125.00</p>
+              <p class="product-percentage">50%</p>
+            </div>
+            <p class="product-previous-price">$250.00</p>
+            <div class="add-cart">
+              <p>0</p>
+              <button class="btn">Add to cart</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Ashley Cove</a>.
     </div>
   </body>
 </html>
