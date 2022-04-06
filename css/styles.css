@@ -62,6 +62,12 @@ body {
   height: 5rem;
 }
 
+.nav-avatar:hover {
+  border: 2px solid hsl(26, 100%, 55%);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 .section-product {
   margin-top: 2.4rem;
   display: flex;
