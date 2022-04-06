@@ -163,6 +163,11 @@ body {
   font-family: inherit;
 }
 
+.minus-btn:hover,
+.plus-btn:hover {
+  cursor: pointer;
+}
+
 .btn {
   display: inline-block;
 
