@@ -179,6 +179,10 @@ body {
   font-family: inherit;
 }
 
+.btn:hover {
+  background-color: hsl(26, 100%, 70%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
