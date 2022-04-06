@@ -110,13 +110,46 @@ body {
 .product-previous-price {
   color: hsl(220, 14%, 75%);
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   text-decoration: line-through;
   margin-bottom: 2.4rem;
 }
 
 .add-cart {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.add-cart-btn {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(25, 100%, 94%);
+  padding: 2rem 2rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+
+  width: 50%;
+  border: none;
+  border-radius: 9px;
+  font-family: inherit;
+}
+
+.btn {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 2rem 3.2rem;
+  border-radius: 9px;
+  color: white;
+  background-color: hsl(26, 100%, 55%);
+  text-align: center;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .attribution {
