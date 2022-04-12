@@ -58,12 +58,16 @@ body {
   width: 2.2rem;
 }
 
+.nav-cart:hover {
+  cursor: pointer;
+}
+
 .nav-dropdown {
   position: relative;
 }
 
 .nav-dropdown-content {
-  display: block;
+  display: none;
   position: absolute;
   left: -20rem;
   background-color: white;
@@ -75,12 +79,21 @@ body {
   z-index: 1;
 }
 
+.nav-dropdown:hover .nav-dropdown-content {
+  display: block;
+}
+
 .nav-cart-text {
   color: hsl(220, 13%, 13%);
   font-weight: bold;
   font-size: 1.6rem;
   padding: 2rem;
   border-bottom: 2px solid hsl(223, 64%, 98%);
+}
+
+.nav-cart-item {
+  text-align: center;
+  padding: 25% 25%;
 }
 
 .nav-avatar {
