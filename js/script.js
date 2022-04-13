@@ -4,10 +4,14 @@ const cartQuantity = document.querySelector('.quantity-cart');
 const addQuantity = document.querySelector('.plus-btn');
 const subtractQuantity = document.querySelector('.minus-btn');
 
+const productImageDiv = document.querySelector('.product-image');
 const mainImage = document.querySelector('.product-image-main');
 const imageThumbs = document.querySelectorAll('.image-thumb');
 
-console.log(mainImage.src);
+productImageDiv.addEventListener('click', e => {
+  productImageDiv.classList.remove('hidden');
+  productImageDiv.classList.add('overlay');
+});
 
 // Function to update images when thumbnail clicked
 imageThumbs.forEach(img => {
